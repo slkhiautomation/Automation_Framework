@@ -35,14 +35,14 @@ public class Hooks extends DriverFactory {
     @Before
     public void beforeScenario(Scenario scenario) {
 
-        Reporter.loadXMLConfig(new File("src\\extent-config.xml"));
-        Reporter.assignAuthor(System.getProperty("user.name"));
-        Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
-        Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
-        Reporter.setSystemInfo("Machine", System.getProperty("os.name"));
-        Reporter.setSystemInfo("Selenium", "3.7.0");
-        Reporter.setSystemInfo("Maven", "3.5.2");
-        Reporter.setSystemInfo("Java Version", System.getProperty("java.version"));
+//        Reporter.loadXMLConfig(new File("src\\extent-config.xml"));
+//        Reporter.assignAuthor(System.getProperty("user.name"));
+//        Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
+//        Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
+//        Reporter.setSystemInfo("Machine", System.getProperty("os.name"));
+//        Reporter.setSystemInfo("Selenium", "3.7.0");
+//        Reporter.setSystemInfo("Maven", "3.5.2");
+//        Reporter.setSystemInfo("Java Version", System.getProperty("java.version"));
     }
 
 
