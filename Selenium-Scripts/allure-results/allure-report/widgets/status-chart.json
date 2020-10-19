@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8048fb99a899a871",
+  "name" : "Validate user is able to search the Product",
+  "time" : {
+    "start" : 1603110685586,
+    "stop" : 1603110719486,
+    "duration" : 33900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

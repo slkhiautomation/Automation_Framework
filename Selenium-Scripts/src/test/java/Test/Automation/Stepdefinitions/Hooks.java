@@ -4,7 +4,7 @@ import Test.Automation.Utils.DriverFactory;
 import Test.Automation.Utils.ExcelFileManager;
 import Test.Automation.Utils.PropertyReader;
 import Test.Automation.Utils.UtilityMethods;
-import com.cucumber.listener.Reporter;
+//import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -57,7 +57,7 @@ public class Hooks extends DriverFactory {
                     File destinationPath = new File(screenshot);
 
                     Files.copy(sourcePath, destinationPath);
-                    Reporter.addScreenCaptureFromPath(destinationPath.toString());
+//                    Reporter.addScreenCaptureFromPath(destinationPath.toString());
                 } catch (IOException e) {
                 }
             }

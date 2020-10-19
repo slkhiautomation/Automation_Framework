@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Search Page",
+    "children" : [ {
+      "name" : "Validate user is able to search the Product",
+      "uid" : "8048fb99a899a871",
+      "parentUid" : "b04a25b0a0513f35236cf2c688ca6757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603110685586,
+        "stop" : 1603110719486,
+        "duration" : 33900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b04a25b0a0513f35236cf2c688ca6757"
+  } ]
+}

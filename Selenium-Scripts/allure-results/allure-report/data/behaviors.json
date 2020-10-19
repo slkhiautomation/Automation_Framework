@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Search Page",
+    "children" : [ {
+      "name" : "Validate user is able to search the Product",
+      "children" : [ {
+        "name" : "Validate user is able to search the Product",
+        "uid" : "8048fb99a899a871",
+        "parentUid" : "6b4b445fa3b10ffecf16a1037c85eb2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603110685586,
+          "stop" : 1603110719486,
+          "duration" : 33900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b4b445fa3b10ffecf16a1037c85eb2d"
+    } ],
+    "uid" : "e17fe9bd38ac28b21b78e17436d5681c"
+  } ]
+}

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3090ea0f-7611-4bfc-9f26-ca9ed19ebd91" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +53,6 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
   <component name="ProjectId" id="1SHuO8sQtIbcUFcsxqijDycT1am" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Public Sapient/DCT_API_Project/Special-License_QE_UI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../rta_crm/rta_crm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,9 +104,11 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
+      <command value="mvn clean install" />
+      <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: API">
+  <component name="RunManager" selected="JUnit.RunAll_Sanity">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -341,9 +355,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunAll_Sanity" />
         <item itemvalue="Cucumber Java.Feature: API" />
         <item itemvalue="Cucumber Java.Scenario: Validate the response code for various scenarios like checking &quot;&lt;http_code&gt;&quot; status code" />
-        <item itemvalue="JUnit.RunAll_Sanity" />
         <item itemvalue="JUnit.RunAll_Sanity.tearDown" />
       </list>
     </recent_temporary>
@@ -477,26 +491,26 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603101914448">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603110570201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603101914448" />
-    <state width="1323" height="117" key="GridCell.Tab.0.bottom" timestamp="1603103658324">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603110570201" />
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1603108904314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603103658324" />
-    <state width="1323" height="117" key="GridCell.Tab.0.center" timestamp="1603103658324">
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603108904314" />
+    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1603108904314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603103658324" />
-    <state width="1323" height="117" key="GridCell.Tab.0.left" timestamp="1603103658324">
+    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603108904314" />
+    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1603108904314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603103658324" />
-    <state width="1323" height="117" key="GridCell.Tab.0.right" timestamp="1603103658324">
+    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603108904314" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1603108904314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603103658324" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603108904314" />
     <state width="1323" height="117" key="GridCell.Tab.1.bottom" timestamp="1603103658324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -513,6 +527,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="117" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603103658324" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1603105522092">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1603105522092" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1603108720642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603108720642" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

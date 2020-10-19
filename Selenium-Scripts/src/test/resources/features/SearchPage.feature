@@ -3,6 +3,7 @@ Feature: Search Page
   Background:
     Given Navigate to Application
 
+    @Search
   Scenario: Validate user is able to search the Product
     When user search the product
     And Click on search button
