@@ -3,6 +3,7 @@ Feature: Checkout
   Background:
     Given Navigate to Application
 
+    @E2E
   Scenario: Validate user is able to proceed guest checkout on searched product
     When user search the product
     And Click on search button

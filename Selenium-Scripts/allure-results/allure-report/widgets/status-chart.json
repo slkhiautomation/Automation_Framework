@@ -1,5 +1,15 @@
 [ {
-  "uid" : "8048fb99a899a871",
+  "uid" : "ecfcc016d83bf46a",
+  "name" : "Validate user is able to proceed guest checkout on searched product",
+  "time" : {
+    "start" : 1603111684582,
+    "stop" : 1603111814727,
+    "duration" : 130145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2cb6c583175c7a2",
   "name" : "Validate user is able to search the Product",
   "time" : {
     "start" : 1603110685586,

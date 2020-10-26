@@ -20,21 +20,14 @@ import java.sql.SQLException;
 
 
         //Execution//
-//        tags = {"@Search"},
-        features = {"src/test/resources/features/SearchPage.feature"},
-//        (plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+//        tags = {"@E2E"},
+        features = {"src/test/resources/features/Common_POC.feature"},
         plugin = {"pretty", "html:target/cucumber-html-report-Sanity",
                 "json:target/cucumber-json-report-Sanity.json",
                 "rerun:target/rerun-Sanity.txt",
                 "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
                 "io.qameta.allure.cucumberjvm.AllureCucumberJvm",
                 })
-//        plugin = { "json:target/positive/cucumber.json", "pretty",
-//                "html:target/cucumber-reports/cucumber-pretty",
-//                "json:target/cucumber-reports/json-reports/CucumberTestReport.json",
-//                "html:target/cucumber/cucumber.html",
-//                "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",})
-//        monochrome = true)
 
 public class RunAll_Sanity extends DriverFactory  {
 
@@ -59,13 +52,8 @@ public class RunAll_Sanity extends DriverFactory  {
         Reporter.setSystemInfo("Selenium", "3.7.0");
         Reporter.setSystemInfo("Maven", "3.5.2");
         Reporter.setSystemInfo("Java Version", System.getProperty("java.version"));
-//		SendEmail.sendEmailBody(TestData.Email.EMAIL_RESULT_SUBJECT, "cucumber-json-report-Sanity");
-        System.setProperty("extent.reporter.avent.start", "true");
-        System.setProperty("extent.reporter.avent.config", "avent-config.xml");
-        System.setProperty("extent.reporter.avent.out", "test-output/AventReport/");
-        System.setProperty("extent.reporter.klov.start", "true");
-        System.setProperty("extent.reporter.klov.config", "klov.properties");
-        quitDriver();
+//        SendEmail.sendEmailBody(TestData.Email.EMAIL_RESULT_SUBJECT, "cucumber-json-report-Sanity");
+//        quitDriver();
     }
 }
 
