@@ -5,11 +5,10 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 import java.awt.*;
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+
+import com.google.common.io.Files;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.SQLException;
@@ -34,6 +33,7 @@ import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Store;
 
+import com.cucumber.listener.Reporter;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import org.apache.commons.io.FileUtils;
@@ -128,6 +128,15 @@ public class UtilityMethods extends DriverFactory {
                 driver.findElement(By.xpath("(//*[contains(text(),'" + text + "')])[1]"));
 
         }
+
+    public static void TakeSnapShot() throws Throwable{
+        String screenshotName = "";
+        //DriverFactory obj = new DriverFactory.getDriver();
+        File sourcePath = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+        File destinationPath = new File( sourcePath + screenshotName + ".png");
+        Files.copy(sourcePath,destinationPath);
+        Reporter.addScreenCaptureFromPath(destinationPath.toString());
+    }
 
 
     public static WebElement getElementWithTextProduct() throws IOException{

@@ -141,7 +141,7 @@ public class DriverFactory {
 		driver = new EventFiringWebDriver(driver).register(new WebDriverListeners());
 	}
 
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		return driver;
 	}
 
